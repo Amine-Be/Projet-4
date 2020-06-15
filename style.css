@@ -481,6 +481,7 @@ button {
 
 .icon-lg {
     font-size: 60px!important;
+    color: #FFFFFF!important;
 }
 
 .sm-shadow {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -740,6 +741,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    display: initial;
     margin-bottom: 24px;
 }
 
@@ -771,20 +773,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF5100;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #FF5100;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #FF5100e0!important;
     color: #FFFFFF!important;
 }
 
@@ -926,7 +928,7 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: rgba(255, 255, 255);
         text-align: left;
         padding-left: 15px;
         width: 100%;
