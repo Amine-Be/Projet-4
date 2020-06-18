@@ -1041,4 +1041,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
 }
