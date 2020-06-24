@@ -681,6 +681,18 @@ p {
     font-size: 16px;
 }
 
+blockquote{
+    border-left: none;
+}
+
+blockquote > :first-child {
+    font-style: italic;
+}
+
+blockquote > :last-child {
+    font-weight: bold;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
