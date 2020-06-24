@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -717,6 +717,12 @@ blockquote > :last-child {
     margin: auto auto auto auto;
 }
 
+#bloc-3-what-i-do h2 {
+    text-align: center;
+    color: #FFFFFF!important;
+    padding-bottom: 25px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -739,17 +745,13 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -767,13 +769,16 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+}
+
+#bloc-3-what-i-do .bold-link:hover {
+    color: #FF661F!important;
 }
 
 .bgc-white {
